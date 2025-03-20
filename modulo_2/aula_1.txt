@@ -1,0 +1,9 @@
+Nessa aula aprendemos duas variaveis, sendo elas:
+nil ( Que seria a ausencia de algum valor atribuido)
+string ( que seria um conjunto de caracteres )
+
+Formas de strings:
+
+'Hello World!'
+"Hello World!"
+[[Hello World!]]

@@ -1,0 +1,35 @@
+Nessa aula aprendemos bastante coisa, sendo elas, 
+
+O Lua segue uma linear, onde ele sempre vai ler o codigo de cima para baixo, sendo completamente impossivel ele saber oque acontece na linha 15 quando está lendo a linha 10. então por exemplo:
+
+print(var)
+
+var = 'Hello World!'
+
+Vai ser nil(NULO) pois ainda não tem valor atribuido a var.
+
+Também aprendemos mais uma variavel que seria os numeros, eles e escrito de maneira normal, sem ' ou " somente escrever mesmo exemplo: 10
+
+Também aprendemos que uma variavel pode ser atribuida a outra variavel exemplo
+
+var1 = 'João'
+
+var2 = var1
+
+
+print(var2) = João
+
+
+Também aprendemos que devemos seguir um padrão de cases que seria as variaveis, onde não e bom misturar linguagens, ter preferença em ingles nelas.
+
+Modelo do SuriLua:
+
+habilidadeEspecial -- camelCase (Variaveis Geral)
+HabildadeEspecial -- PascalCase (Classes)
+HABILIADE_ESPECIAL -- SCREMING_SNAKE_CASE (Constantes)
+
+Exemplo de padrão de nomes da variaveis:
+
+heroName = 'Super Herói'
+heroAge = 20
+horoPower = 100

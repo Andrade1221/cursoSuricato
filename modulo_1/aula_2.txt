@@ -1,0 +1,1 @@
+Aprendemos a baixar o interpretador lua54 e a intalar o mesmo. Assim como navegar pelas pasta usando o cd e como abrir o VS diretamente na pasta selecionada apaga tudo no diretorio poe CMD e code .
