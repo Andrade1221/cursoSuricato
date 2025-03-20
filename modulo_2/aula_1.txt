@@ -1,6 +1,7 @@
-Nessa aula aprendemos duas variaveis, sendo elas:
-nil ( Que seria a ausencia de algum valor atribuido)
-string ( que seria um conjunto de caracteres )
+Nessa aula, aprendemos duas variáveis, sendo elas:
+
+nil (que seria a ausência de algum valor atribuído)
+string (que seria um conjunto de caracteres)
 
 Formas de strings:
 

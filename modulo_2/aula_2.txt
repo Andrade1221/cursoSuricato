@@ -1,35 +1,34 @@
-Nessa aula aprendemos bastante coisa, sendo elas, 
+Nessa aula, aprendemos bastante coisa, sendo elas:
 
-O Lua segue uma linear, onde ele sempre vai ler o codigo de cima para baixo, sendo completamente impossivel ele saber oque acontece na linha 15 quando está lendo a linha 10. então por exemplo:
+O Lua segue uma linearidade, onde ele sempre vai ler o código de cima para baixo, sendo completamente impossível ele saber o que acontece na linha 15 quando está lendo a linha 10. Então, por exemplo: 
 
 print(var)
 
 var = 'Hello World!'
 
-Vai ser nil(NULO) pois ainda não tem valor atribuido a var.
+O resultado será nil(NULO), pois ainda não há valor atribuído à variável var.
 
-Também aprendemos mais uma variavel que seria os numeros, eles e escrito de maneira normal, sem ' ou " somente escrever mesmo exemplo: 10
+Também aprendemos mais um tipo de variável, que seria os números. Eles são escritos de maneira normal, sem ' ou ", apenas o valor diretamente. Exemplo:
 
-Também aprendemos que uma variavel pode ser atribuida a outra variavel exemplo
+numero = 10
+
+Também aprendemos que uma variável pode ser atribuída a outra variável. Exemplo:  
 
 var1 = 'João'
-
 var2 = var1
 
+print(var2) -- João
 
-print(var2) = João
-
-
-Também aprendemos que devemos seguir um padrão de cases que seria as variaveis, onde não e bom misturar linguagens, ter preferença em ingles nelas.
+Além disso, aprendemos que devemos seguir um padrão de nomenclatura para variáveis, evitando misturar idiomas e dando preferência ao inglês. 
 
 Modelo do SuriLua:
 
-habilidadeEspecial -- camelCase (Variaveis Geral)
-HabildadeEspecial -- PascalCase (Classes)
-HABILIADE_ESPECIAL -- SCREMING_SNAKE_CASE (Constantes)
+habilidadeEspecial -- camelCase (Variáveis gerais)  
+HabilidadeEspecial -- PascalCase (Classes)  
+HABILIDADE_ESPECIAL -- SCREAMING_SNAKE_CASE (Constantes)  
 
-Exemplo de padrão de nomes da variaveis:
+Exemplo de padrão de nomes de variáveis:*
 
 heroName = 'Super Herói'
 heroAge = 20
-horoPower = 100
+heroPower = 100
