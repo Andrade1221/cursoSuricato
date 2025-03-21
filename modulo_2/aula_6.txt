@@ -1,8 +1,8 @@
-Nessa aula aprendemos oque seria condições...
+Nessa aula, aprendemos o que são condições...
 
-Onde temos um Se e o Então exemplo:
+Onde temos um "Se" e um "Então", por exemplo:
 
-Se ( Eu arrumar meu quarto )
-Então ( Posso jogar bola )
+Se (eu arrumar meu quarto)
+Então (posso jogar bola)
 
-Podemos por uma condição dentro de outra condição, e sempre criar um bloco para cada condição, deixando sempre ela fechada no final.
+Podemos colocar uma condição dentro de outra condição e sempre criar um bloco para cada uma, garantindo que esteja devidamente fechada no final.

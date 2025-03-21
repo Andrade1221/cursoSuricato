@@ -1,15 +1,15 @@
-Nessa aula, aprendemos algumas soluções de escape para usar em strings. Sendo elas a mais usada a quebra de linha, que temos duas maneiras de usar:
+Nessa aula, aprendemos algumas soluções de escape para usar em strings, sendo a mais usada a quebra de linha. Temos duas maneiras de utilizá-la:
 
-print([[Hello 
+print([[Hello  
 World!]])
 
-Ira vir em duas linhas, mas não e recomendado nem pelo Suri nem pelo Lua, mas pode ser usado em ocasioes que não tem oque fazer...
+Isso resultará em duas linhas, mas não é recomendado nem pelo Suri nem pelo Lua. No entanto, pode ser utilizado em ocasiões onde não há outra alternativa.
 
-E o mais recomendado, seria o uso da barra invertida \ ( Para criar ela Alt + 92 ) e o complemento o da nova linha e n Ficando:
+A forma mais recomendada é o uso da barra invertida \ (Para criá-la: Alt + 92) e o complemento da nova linha \n, ficando assim:
 
 print('Hello\nWorld!')
 
-ADD martoli:
+ADD Martoli:
 
 Todos os escapes e exemplos:
 

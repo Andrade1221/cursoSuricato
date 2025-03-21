@@ -1,16 +1,16 @@
-Nessa aula aprendemos os operadores relacionais, onde temos:
+Nessa aula, aprendemos os operadores relacionais, onde temos:
 
-Geralmente 99% dos caso para compara numeros:
+Geralmente, em 99% dos casos, são usados para comparar números:
 
-Menor Que (<)
-Maior Que (>)
+Menor que (<)
+Maior que (>)
 
-Menor ou igual Que (<=)
-Maior ou igual Que (>=)
+Menor ou igual a (<=)
+Maior ou igual a (>=)
 
 E comparações gerais:
 
-Se seria igual (==)
-Se seria diferente que (~=)
+Igual a (==)
+Diferente de (~=)
 
-nesses dois ultimos podemos comprar em strings também... 
+Nesses dois últimos, também podemos comparar strings...

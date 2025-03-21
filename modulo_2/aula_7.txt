@@ -1,17 +1,23 @@
-Nessa aula aprendemos mais duas condições que seria o se não e o se não, se. onde temos no se (condição) então (recompensa) ai vem o se não (consequencia) e também tem como por o se não, se (segunda recompensa). Exemplo:
+Nessa aula, aprendemos mais duas condições: o "se não" e o "se não, se".
 
-Se ( Eu arrumar meu quarto )
-Então ( Posso jogar bola )
-Se não ( Vou apanhar )
+Na estrutura se (condição) então (recompensa), podemos adicionar um se não (consequência). Além disso, é possível utilizar se não, se (segunda condição) então (segunda recompensa).
 
-Se ( Eu arrumar meu quarto )
-Então ( Posso jogar bola )
-Se não, se ( Lavar a louça )
-Então ( Posso jogar no video game )
-Se não ( Vou apanhar )
+Exemplo:
 
-Também e importante indexar o codigo da maneira correta, para ter um codigo organizado, mesmo que o lua entenda estando tudo bagunçado, e bom indexar da maneira correta se tiver duvidas tem dois siste que faz isso um indexa da maneira correta e outro deixa tudo em uma linha segue abaixo:
+Se (eu arrumar meu quarto)
+Então (posso jogar bola)
+Se não (vou apanhar)
 
+Se (eu arrumar meu quarto)
+Então (posso jogar bola)
+Se não, se (lavar a louça)
+Então (posso jogar videogame)
+Se não (vou apanhar)
+
+Também é importante identar o código da maneira correta para mantê-lo organizado. Mesmo que o Lua entenda um código desorganizado, é sempre bom formatá-lo corretamente. Caso tenha dúvidas, existem dois sites que podem ajudar:
+
+Beautifier (organiza o código corretamente):
 https://goonlinetools.com/lua-beautifier/
 
+Minifier (deixa tudo em uma única linha):
 https://goonlinetools.com/lua-minifier/
