@@ -1,0 +1,64 @@
+Nessa aula, aprendemos algumas soluções de escape para usar em strings. Sendo elas a mais usada a quebra de linha, que temos duas maneiras de usar:
+
+print([[Hello 
+World!]])
+
+Ira vir em duas linhas, mas não e recomendado nem pelo Suri nem pelo Lua, mas pode ser usado em ocasioes que não tem oque fazer...
+
+E o mais recomendado, seria o uso da barra invertida \ ( Para criar ela Alt + 92 ) e o complemento o da nova linha e n Ficando:
+
+print('Hello\nWorld!')
+
+ADD martoli:
+
+Todos os escapes e exemplos:
+
+\a  - Bell (sinal sonoro)
+\b  - Backspace (retrocesso)
+\f  - Form feed (avanço de formulário)
+\n  - Newline (nova linha)
+\r  - Carriage return (retorno de carro)
+\t  - Horizontal tab (tabulação horizontal)
+\v  - Vertical tab (tabulação vertical)
+\\  - Backslash (barra invertida)
+\"  - Double quote (aspas duplas)
+\'  - Single quote (aspas simples)
+\[  - Left square bracket (colchete esquerdo)
+\]  - Right square bracket (colchete direito)
+
+
+# \a - Bell (sinal sonoro) - Em alguns terminais, pode emitir um som
+print("\a")  # Pode não funcionar em todos os terminais
+
+# \b - Backspace (retrocesso) - Remove o caractere anterior (pode não funcionar corretamente em alguns terminais)
+print("ABCDE\bX")  # Mostra "ABCDX" (E é apagado)
+
+# \f - Form feed (avanço de formulário) - Raramente usado hoje em dia, pode mudar de página em impressoras
+print("Texto\fNovo Texto")  # O efeito pode variar dependendo do ambiente
+
+# \n - Newline (nova linha) - Pula para a próxima linha
+print("Linha 1\nLinha 2")
+
+# \r - Carriage return (retorno de carro) - Volta ao início da linha, sobrescrevendo o que estava antes
+print("12345\rABC")  # Mostra "ABC45" (123 foi sobrescrito)
+
+# \t - Horizontal tab (tabulação horizontal) - Insere um espaçamento/tabulação
+print("Nome:\tGabriel")  # Exibe um espaço entre "Nome:" e "Gabriel"
+
+# \v - Vertical tab (tabulação vertical) - Move para baixo, semelhante ao \n, mas com efeito diferente em alguns terminais
+print("Linha 1\vLinha 2")  # Pode não funcionar corretamente em todos os ambientes
+
+# \\ - Backslash (barra invertida) - Permite imprimir uma barra invertida
+print("C:\\Users\\Gabriel")  # Exibe "C:\Users\Gabriel"
+
+# \" - Double quote (aspas duplas) - Permite usar aspas duplas dentro de strings
+print("Ele disse: \"Olá, tudo bem?\"")  # Exibe: Ele disse: "Olá, tudo bem?"
+
+# \' - Single quote (aspas simples) - Permite usar aspas simples dentro de strings
+print('É um exemplo de \'aspas simples\' dentro de uma string')
+
+# \[ - Left square bracket (colchete esquerdo) - Não é um escape especial em Python, pode ser usado normalmente
+print("[Texto dentro de colchetes]")
+
+# \] - Right square bracket (colchete direito) - Também pode ser usado normalmente
+print("Texto com colchetes [] ao redor")

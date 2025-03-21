@@ -1,0 +1,17 @@
+Nessa aula aprendemos mais duas condições que seria o se não e o se não, se. onde temos no se (condição) então (recompensa) ai vem o se não (consequencia) e também tem como por o se não, se (segunda recompensa). Exemplo:
+
+Se ( Eu arrumar meu quarto )
+Então ( Posso jogar bola )
+Se não ( Vou apanhar )
+
+Se ( Eu arrumar meu quarto )
+Então ( Posso jogar bola )
+Se não, se ( Lavar a louça )
+Então ( Posso jogar no video game )
+Se não ( Vou apanhar )
+
+Também e importante indexar o codigo da maneira correta, para ter um codigo organizado, mesmo que o lua entenda estando tudo bagunçado, e bom indexar da maneira correta se tiver duvidas tem dois siste que faz isso um indexa da maneira correta e outro deixa tudo em uma linha segue abaixo:
+
+https://goonlinetools.com/lua-beautifier/
+
+https://goonlinetools.com/lua-minifier/
