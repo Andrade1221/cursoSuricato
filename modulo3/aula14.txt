@@ -1,0 +1,5 @@
+Nessa aula aprendemos mais um laço, que seria o While
+
+Ele se repete enquanto a sentencia for verdadeira...
+Quando ela for falsa ele se quebra.
+

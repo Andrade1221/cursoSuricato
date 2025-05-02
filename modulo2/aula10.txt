@@ -1,0 +1,7 @@
+Nessa aula apreofundamos um pouco mais nos valore boleanos (true/false) que eles estão presentes em todas as demais variaveis, mesmo indiretamente e pegamos um masete de como descobrir oque cada um e pelo if (Se) e o else (Então) segue valores que até agora sabemos:
+
+'string' -- true
+nil -- false
+10 -- true
+true -- true
+false -- false

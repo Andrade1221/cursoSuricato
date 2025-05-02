@@ -1,0 +1,1 @@
+Nessa aula aprendemos que podemos ter tabelas infinitas, dentro de tabelas e como acessar os dados dela. E também que podemos ter funções dentro de tabelas. Resumindo, o uso de tabelas e inifinito e podemos ter qualquer tipo de dados lá.

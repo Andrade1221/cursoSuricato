@@ -1,0 +1,3 @@
+Nessa aula aprendemos a concatenação, que seria esclusivamente para "juntar" duas strings ou mais em uma outra string, ela e feita com o .. antes da segunda parte da string ou no final da primeira parte, no lua conseguimos fazer com o numeros também pois ele tem uma typagem que nos permite isso, mas por normal e somente com strings.
+
+Ela pode ser strings com strings ou string com variavel que seja uma string ou variavel com variavel.

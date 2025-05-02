@@ -1,0 +1,9 @@
+Nessa aula aprendemos a usar as funções que retorna algum valor.
+
+Quando uma função retorna um dado, o dado e retornado para o chamado da função.
+
+O chamado da função passa a ser o o dado retornado.
+
+E diferente printar a variavel que representa a função do que printar a função.
+
+Para retornar, usamos o return

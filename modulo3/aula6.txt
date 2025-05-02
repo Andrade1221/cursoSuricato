@@ -1,0 +1,4 @@
+Nessa aula aprendemos as tabelas, ela seria mais um dado, as tabelas são usadas para estruturar dados, sendo strings, numeros, boleanos, funções etc.
+
+Podemos criar tabelas com um index ou uma key, direta ou indireta, que seria escondida ou não escondida e sequencial 1 2 3 etc, não escondida você defini antes tipo nome = 10 para imprimir um valor precisamos informar a index ou a key se não da um endereço de memoria da tabela assim como as funções.
+

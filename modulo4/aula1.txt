@@ -1,0 +1,7 @@
+Nessa aula aprendemos que seria lib, libs, library, blibiotecas... Que nada mais seria um agrupamento de funções, definido por quem criou a blibioteca.
+
+Exemplo, no Vrp.tantantan() a blibioteca e o Vrp e a função, seria o tantantan... 
+
+
+Também aprendemos como pesquisar, que seria como: lua math library ou lua strings library
+Sits bons: tutorialspoit - lua-users.org

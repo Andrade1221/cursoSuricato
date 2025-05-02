@@ -1,0 +1,13 @@
+Nessa aula aprendomos o for numerico e o uso do break.
+
+Os for nada mais é que laços, onde tipo, ele vai executar aquela função até chegar onde tu definiu ou parou com o uso do break.
+
+Geralmente no for numerico eles usa 'for i' como i de index indexação...
+
+O formato seria:
+
+for i = 1, 5, 1 do
+    print(i)
+end
+
+Sendo o primeiro parametro o numero inicial, o segundo final e o terceiro quando aumenta ou diminui, deixando sem so os 2 primeiros sempre vai ser (+1)

@@ -1,0 +1,9 @@
+Nessa aula demos sequencia nos for, e aprendemos o for generico. Que seria utilizados com tabelas... Onde ele percorre todos os dados da tabela, nesse modelo:
+
+for key/index, valor in pairs(t) do
+    print(key/index, valor)
+end
+
+Sendo, igual ao outro, mas definimos um par de variaveis geralmente vai ser k, v sendo o indexe no k ordem da tabela e no v o valor...
+
+ai vem o in que e uma condição e o pairs que tmb é... o pairs ele pega os indexes ou nomes definido como nome = 'Andrade' e temos o ipairs que pegaria somente indexes...

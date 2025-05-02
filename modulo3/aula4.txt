@@ -1,0 +1,6 @@
+Nessa aula aprendemos que seria o callback, que seria uma função sendo passada como argumento para outra função.
+Também aprencemos oque seria o High Order Function, que seria a função que recebe o callback.
+
+Aprendemos também o type, que seria igual o print, mas ele nos retorna oque o dado é.
+
+O callback pode ser passado diretamente no chamado ou pela variavel da função. Quando passado diretamente ele tem que estar na forma primitiva function()

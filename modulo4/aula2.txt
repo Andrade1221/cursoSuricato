@@ -1,0 +1,3 @@
+Nessa aula aprendemos o math.abs
+
+Nada mais é que ele retorna o numero sempre na sua forma possitiva.

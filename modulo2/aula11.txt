@@ -1,0 +1,1 @@
+Nessa aula aprendemos mais um operador, o not, ele serve para inverter a representividade boleana do dado que o precede.

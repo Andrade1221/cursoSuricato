@@ -1,0 +1,3 @@
+Nessa aula aprendemos oque seria mais indicado para indexar ou criar as tabelas da aula 6. 
+
+Que seria sempre dar a preferencia para nomes sem [''] usar eles somente em ultimo caso nas criações e na indexação somente se for numeros ou a tabela estar assim.

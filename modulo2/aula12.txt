@@ -1,0 +1,46 @@
+Nessa aula aprendemos mais dois operadores o "or" e o "and. Na tradução literal seria ou é e...
+
+or ele percorre todos os elementos até encontrar um verdadeiro, encontrando tudo tornace true ( ele irá parar no primeiro verdadeiro e se for uma string ele retorna a string e não true)
+and or ele percorre todos os elementos até encontrar um falso, encontrando tudo tornace false ( ele irá parar no primeiro falso e se for nil ele retorna nil e não false)
+
+
+print(false or false or false or true) -- true
+
+print(true and true and true and false) -- false
+
+Nos também aprendemos que não podemos usar/ não recomendado ambos na mesma linha sem a separação por () assim como em equação. exemplo invez de:
+
+print(true and false or true) 
+
+usar:
+
+print((true and false) or true)
+
+Ele sempre vai eiminando os parentes assim como na equação
+
+Também aprendemos um modelo de codigo limpo clean code. Usando eles que seria, invez de:
+
+---
+var = nil
+
+if var == nil then ( Se for igual a nil vira 10)
+    var = '10'
+end
+---
+
+Por isso indiretamente:
+
+---
+var = nil
+
+if not var then ( Se for igual a nil(false) inverte pelo not vira true e passa na condição assim virando 10)
+    var = '10'
+end
+---
+
+E por isso por final:
+
+---
+var = nil
+
+var = var or 10 ( Se var for igual a false por ser nil ele faz a percorencia nos dois valores 10 e true que ja vimos e fica false or true onde tudo vira true e vira o 10 se não for, ele vai ter um true antes do 10 e mantem ele...)

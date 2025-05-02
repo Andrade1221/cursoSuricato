@@ -1,0 +1,6 @@
+Nessa aula aprendemos argumentos de funções. Que nada mais e algum dado que você passa no chamado para a função.
+
+1 - Para passar o dado e no parenteses do chamdao.
+2 - Para receber o dado e no parenteses da função.
+
+Podemos passar qualquer tipo de dado nesses argumentos, e mais de um tipo de dado também, somente seguir a mesma ordem para passar e receber.

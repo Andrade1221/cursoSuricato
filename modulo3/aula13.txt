@@ -1,0 +1,7 @@
+Nessa aula arendemos o operado lenth conecido como len
+
+para usarmos ele e o # serquilia... Ele mede o comprimento das coisas
+
+Da para usar em tabelas e em strings e no fivem futuramente em (vetores)
+
+Obs: ele so pega indexes não pela key

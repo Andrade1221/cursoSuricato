@@ -1,0 +1,5 @@
+Nessa aula aprendemos a definição de variavel local e global.
+
+Sendo muito facil, a global ela funciona em todo o codio. A não ser que o escopo que ela está registrada não seja interpretado/chamado.
+
+A local, ela fica presa ao seu escopo, e aos escopos que estão dentro desse primeiro escopo, seguingo a mesma condição da global de ser interpretado/chamado.

@@ -1,0 +1,10 @@
+Nessa aula aprendemos mais uma variavel que seria as funções.
+
+Funções nada mais e que uma seri de dados já pré definidos que podemos chamar quando necessario.
+
+Printar a variavel da função NÃO e a mesma coisa que chamar a função.
+
+Temos dois tipos de funções, que seria:
+
+1 - Unicamente para realziar uma serie de dados;
+2 - Para retornar um valor.

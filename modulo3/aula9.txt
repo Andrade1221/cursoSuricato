@@ -1,0 +1,10 @@
+Nessa aula aprendemos que nas tabelas elas podem receber dados durante o codigo ou perder dados durante eles.
+
+Existe 2 modos para isso:
+1 - Inserir ou remover de forma sequencial, onde por exemplo temos 3 indices 1 2 3 se removermos o 2 logo o 3 vira o 2 ou se inresimos um, logo ele sera o 4.
+
+2 - Inserir ou remover de forma determinada onde ele sera colocado ou removido de acordo com oque tu definiu sem alterar os demais.
+
+nessa aula também aprendemos a usar o 1 que seria como o table.insert ( para adicionar ) e o table.remove ( para remover )
+
+Obs: Sempre que houver uma sobreposição de dado, o dado informado será o ultimo na ordem da linearidade

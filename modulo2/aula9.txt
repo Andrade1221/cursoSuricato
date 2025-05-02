@@ -1,0 +1,1 @@
+Nessa aula aprendemos os boleanos (booleans) que seria o true/false ou verdadeiro ou falso, sele seria mais uma variavel e que está presente em quase todos os lugares, poise sempre memso indiretamente tem eles nos codigos.

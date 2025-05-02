@@ -1,0 +1,3 @@
+Nessa aula aprendemos o math.min e o math.max
+
+Nada mais que podemos passar quantos argumentos quiser e o o min sempre vai retornar o menor dele e o max o maior...
