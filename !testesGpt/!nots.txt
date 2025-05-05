@@ -1,6 +1,30 @@
-### 🔍 **Desafio 6: Buscar amigo na tabela**
-Crie uma função `buscarAmigo(nome)` que:
-- Recebe um nome como argumento.
-- Verifica se esse nome está dentro da tabela `amigos` (pode usar a mesma do desafio anterior).
-- Se estiver, imprima: `"Amigo encontrado: [nome]"`
-- Se **não** estiver, imprima: `"Amigo não encontrado."`
+
+
+Bora aumentar o nível um pouquinho com **função para adicionar itens** no inventário?
+
+---
+
+### 📦 **Desafio 9: Adicionar item ao inventário**
+
+1. Crie uma função `adicionarItem(inventario, item, quantidade)` que:
+
+   * Se o item já existir no inventário, **soma a quantidade**.
+   * Se o item não existir, **cria o item com essa quantidade**.
+2. Depois, chame a função algumas vezes e imprima o inventário atualizado.
+
+Exemplo:
+
+```lua
+adicionarItem(inventory, "espada", 2)
+adicionarItem(inventory, "arco", 1)
+```
+
+Resultado esperado:
+
+```
+espada: 5 unidades
+pocao: 10 unidades
+arco: 1 unidades
+```
+
+Quero ver o mestre Totolí em ação de novo!
