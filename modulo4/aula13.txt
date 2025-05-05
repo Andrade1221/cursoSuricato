@@ -1,0 +1,9 @@
+Nessa aula aprendemo o table.concat, ele nada mais faz que concatena uma lista de array ( Lista numerica ) de uma tabela,
+
+Temos duas estruturas nele seria tabela, Oque fazer entre os numeros
+
+Ou tabela, Oque fazer entre os numeros, numero inicial, final
+
+Assim pode usar na tabela toda, como um /pon
+
+Ou um top money 10 que seria do 1 ao 10 se tiver em ordem do mais rico par ao menor...

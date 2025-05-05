@@ -1,0 +1,7 @@
+Nessa aula aprendemos o math.random, ele nos retorna sempreum numero aleatorio dente os argumentos, temos 3 modos de usar:
+
+math.random() -- Retorna um valor entre 0 e 1 ( Esse e o unico caso que ele retorna um numero decimal )
+
+math.random(100) -- Retorna sempre um valor entre 1 e o argumento
+
+math.random(10,15) -- Retorna um valor entre o argumento1 e argumento2

@@ -1,0 +1,5 @@
+Nessa aula aprendemos a usar o string.sub... Ele nada mais e uma função para trabalhar com strings, onde conseguimos pegar apartir de x caracter para imprimir por exemplo...
+
+Pode ser passado o argumento inicial 1 e o 2 que seria até sendo possitivo vai da esquerda para direita, e negativo da direita para esquerda.
+
+Tendo somente 1 argumento ele vai daquele ponto até o final.

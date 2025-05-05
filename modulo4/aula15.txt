@@ -1,0 +1,24 @@
+Nessa aula aprendemos outra lib que seria o os (Operadores de Sistema) e aprendemos a funcão date
+
+Ela nada mais retorna informações de data e hora... Segue lista:
+
+%a  nome abreviado do dia da semana (ex: Qua)
+%A  nome completo do dia da semana (ex: Quarta-feira)
+%b  nome abreviado do mês (ex: Set)
+%B  nome completo do mês (ex: Setembro)
+%c  data e hora completa (ex: 16/09/98 23:48:10)
+%d  dia do mês (16) [01-31]
+%H  hora no formato 24h (23) [00-23]
+%I  hora no formato 12h (11) [01-12]
+%M  minuto (48) [00-59]
+%m  mês (09) [01-12]
+%p  "am" ou "pm" (pm)
+%S  segundo (10) [00-61]
+%w  dia da semana (3) [0-6 = Domingo-Sábado]
+%x  data (ex: 16/09/98)
+%X  hora (ex: 23:48:10)
+%Y  ano com quatro dígitos (1998)
+%y  ano com dois dígitos (98) [00-99]
+%%  o caractere `%´
+
+Lembrando, ela sempre vai retornar tudo que está na string passada para ela...

@@ -1,0 +1,6 @@
+Ness aula aprendemos oque seria o timetamps, ele nada mais e uam contagem em segundos desde 1970 mais especificamente 1 de janeiro de 1970 onde vem acrecentando 1 segunda acada 1 segundo skksks 
+
+Tendo um numero em segundos desde 1 de janeiro de 1970.
+
+No lua seria o os.time que nos da esse numero... sendo: os.time() Muito usado como linha temporal, por ser algo que sempre vai ser 1 segunda a mais
+conseguimos prever o numero daqui 1 dia 15 ou 681 e podemos fazer sistemas de IPTU ou IPVA com isso como exemplo... 

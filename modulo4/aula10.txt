@@ -1,0 +1,3 @@
+Nessa aula aprendemos o string.gsub, ele faz a substituição de uma parte da string por outra...
+
+Sendo a estrutura variavel, parte a ser trocada e parte nova

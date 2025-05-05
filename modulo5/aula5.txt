@@ -1,0 +1,6 @@
+Nessa aula, aprendemos a criar as pasta e arquivos basicos de um recurso,
+
+Sendo, pasta main ( onde vai ficar os arquivos do recurso )
+arquivo, server.lua ( Codigo que vai ficar as cosias lado server )
+arquivo, client.lua ( Codigo que vai ficar as cosias lado client )
+fxmanifest.lua ( Seria como um server.cfg, aquivo de config que indica os arquivos usados no script e qual e qual...)

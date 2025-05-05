@@ -1,0 +1,7 @@
+Nessa aula aprendeomos a function, load ( Antigamente loadstring ) Ela nada mais faz e nos retornar uma função, que pega a string passada e se ela tiver um codigo dentro dela, conseguimos interpretar ele...
+
+Ficaria:
+
+local funcaoretornada = load(ondeEstaCodigo)
+
+so chamar a funcaoretornada()

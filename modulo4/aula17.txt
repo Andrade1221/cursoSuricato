@@ -1,0 +1,3 @@
+Nessa aula aprendemos o os.clock, ele nada mais nos retorna quanto tempo o codigo está em execução na CPU
+
+Mesmo que no lua isso seja dificil de ver normalmente por ser uma linguagem muito rapida.

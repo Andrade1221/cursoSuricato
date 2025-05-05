@@ -1,0 +1,3 @@
+Ness aula aprendemos mais duas funções da lib string, que seria:
+upper ( Coloca tudo em caixa alta "Menos caracter especial")
+lower ( Coloca tudo em caixa baixa "Menos caracter especial")

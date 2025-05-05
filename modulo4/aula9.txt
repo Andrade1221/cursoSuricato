@@ -1,0 +1,3 @@
+Nessa aula aprendemos a usar e oque faz a função string.find, nada mais que ela verifica na string se tem o trecho que você passou como argumento
+
+E retorna a caracter inicial e final de onde estar oque foi passado dentro da string.

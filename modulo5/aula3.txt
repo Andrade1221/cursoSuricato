@@ -1,0 +1,10 @@
+Nessa aula aprendemos um pouco sobre como pesquisar as nativas, em geral, elas tem alguns prefixos... Que seria:
+
+Set ( onde ele vai sertar algo, não te retona nada, apenas executa )
+
+Is ( ele vai te retornar geralamente um bolleano, sendo true ou false, ele seria bassicamente 'é/está')
+
+Get ( te retorna basicamente tudo, dele seria um 'adquirir' uma informação...)
+
+Aprendemos uma forma mais facil de pesquisar dentre as 7 mil nativas, que seria inicialmente no sit das nativas com nome generico doque precisa
+exemplo, algo do de veiculo == vehicle, se não achar, ir diretamenet no google, e por ultimo na comunidade do forum do fivem

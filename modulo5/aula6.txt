@@ -1,0 +1,17 @@
+Nessa aula usamos pela primeira vez um nativo, o AddExplosion, que nada mais é uma função de explosão...
+
+Junto com isso apredemos um pouco a ler e enternder o docs
+
+print('Iniciando a explosão')
+-- ADD_EXPLOSION
+AddExplosion(
+    -1145.5354003906,
+    -533.12713623047,
+    32.260326385498,
+	8, 
+	100, 
+	true, 
+	false, 
+	20
+);
+print('Finalizando a explosão')

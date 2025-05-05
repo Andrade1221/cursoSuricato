@@ -1,0 +1,7 @@
+Nessa aula aprendemos um pouco como saber se um codigo ele e client ( Lado do player, que e executado no PC do jogador )
+
+Ou server ( Lado da VPS, que e executado no PC onde a base está rodando... )
+
+Aqui seria por uma logica basica, exemplo, uma animação, claramente ela e executada pelo client, pois você que executa
+
+Já um kick player, logicamente e o server, pois ele que executa

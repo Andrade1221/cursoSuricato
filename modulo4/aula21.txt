@@ -1,0 +1,3 @@
+Nessa aula aprendemos o tostring, ele e bem parecido com o tonumber, ele nos retorna o dado em forma de string para usarmos ele e não dar erro em uma concatenização por exemplo...
+
+Ou, em um script de nome e seu nome e nil por exemplo ksksksk

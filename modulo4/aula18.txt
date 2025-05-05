@@ -1,0 +1,3 @@
+Ness aula, reaprendemos oque seria a função type, ela nos retorna qual seria o tipo de dado passado para ela...
+
+estrutura: type()

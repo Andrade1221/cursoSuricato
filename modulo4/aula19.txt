@@ -1,0 +1,3 @@
+Nessa aula aprendemos o tonumber, ele nada mais faz que transforma uma string que seja numero em numero...
+
+Então, por exemplo temos '20' e 20 sabemos disso, mas par ao codigo e uma string, o tonumber faz ele virar 20 para o codigo ou oque for, entender ele como numero mesmo.

@@ -1,0 +1,5 @@
+Nessa aula aprendemos novamente o table.insert e o table.remove...
+
+Onde ambos, segem uma ordem index então no insert ele vai add oque passamos na ordem então se na tabela está o index 4 ele vai por no 5
+
+E o remove ele remove o index que informar, e realoca os demais na ordem, então removemos o i2 ele vai por o 3 no 2 o 4 no 3 e assim por diante. 

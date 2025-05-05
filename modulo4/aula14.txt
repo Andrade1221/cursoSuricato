@@ -1,0 +1,6 @@
+Nessa aula aprendemos a usar a função da libe table sort, ela nada mais faz que ordenar uma tabela, então você passa a tabela, faz um callback
+que seria criar uma função com return junto com a logica de ordenar e ela vai ordenar segundo isso..
+
+table.sort(tabela, function(a(pode ser qualquer coisa e oque ele vai comparar com o outro), b(pode ser qualquer coisa e oque ele vai comparar com o outro))
+    return a (logica) b
+end)

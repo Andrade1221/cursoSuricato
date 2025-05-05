@@ -1,0 +1,6 @@
+### 🔍 **Desafio 6: Buscar amigo na tabela**
+Crie uma função `buscarAmigo(nome)` que:
+- Recebe um nome como argumento.
+- Verifica se esse nome está dentro da tabela `amigos` (pode usar a mesma do desafio anterior).
+- Se estiver, imprima: `"Amigo encontrado: [nome]"`
+- Se **não** estiver, imprima: `"Amigo não encontrado."`
