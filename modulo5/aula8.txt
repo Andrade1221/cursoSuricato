@@ -1,0 +1,33 @@
+Nessa aula tivemos alguns desafios para fazer juntos:
+
+Dar armas para o ped
+Mudar a opacidade do ped
+Deixar o ped invisivel
+
+Também aprendemos mais um DNA, que seria do player e não do ped, que pegamos pelo payerId()
+
+-- // GIVE_WEAPON_TO_PED
+local weapon = 'weapon_raycarbine'
+local ammo = 250
+local weaponHash = GetHashKey(weapon)
+
+GiveWeaponToPed(
+	ped, 
+	weaponHash, 
+	ammo, 
+	true, 
+	false
+);
+
+-- // SET_ENTITY_ALPHA
+SetEntityAlpha(
+	ped, 
+	0, 
+	false
+);
+
+--// SET_ENTITY_VISIBLE
+SetEntityVisible(
+	ped, 
+	true
+);

@@ -1,0 +1,19 @@
+Nessa aula apredemos alguns conceitos basicos. Que seria:
+
+Referenciação de entidades;
+hashKey; 
+
+Entidades (entity) São, veículos( Carro, Caminhão, Avião, Heli, etc ); peds ( São os bonecos do jogo ); objetos ( Cone, Barril, Caixa, Serca, etc )
+
+hashKey, nada mais é que um texto em formato de numero, resumindo, o jogo trabalha melhor com numero e não textos.
+
+Referenciar uma entity, seria pegar o DNA dela, saber o seu identificador, cada entity tem seu proprio DNA para o jogo saber quem ou oque e oque ou quem.
+
+
+-- PLAYER_PED_ID
+local ped = PlayerPedId()
+
+SetEntityCoords(
+	ped, 
+	1089.0096435547, -696.82092285156, 57.621864318848
+);

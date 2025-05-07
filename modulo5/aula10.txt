@@ -1,0 +1,8 @@
+Nessa aula aprendemos a usar a nativa de add componentes a arma.
+
+// GIVE_WEAPON_COMPONENT_TO_PED
+GiveWeaponComponentToPed(
+	ped: Ped, 
+	weaponHash: Hash, 
+	componentHash: Hash
+);

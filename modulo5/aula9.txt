@@ -1,0 +1,7 @@
+Ness aula aprendemos a nativa SetEntityInvincible, ela nada mais faz que deixa a entity invencivel de danos 
+
+-- // SET_ENTITY_INVINCIBLE
+SetEntityInvincible(
+	ped, 
+	true
+);
