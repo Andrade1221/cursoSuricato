@@ -1,0 +1,31 @@
+Nessa aula aprendemos a funcao/nativa RegisterCommand, ela seria uma High Order Function, pois recebe outra função como argumento. Assim fazendo o callback... 
+
+RegisterCommand('tp', function()
+	local coordsPraca = 160.31427001953, -1006.4237670898, 29.469083786011
+	SetEntityCoords(
+		ped,
+		coordsPraca
+	)
+end)
+
+RegisterCommand('remarmas', function()
+	--// REMOVE_ALL_PED_WEAPONS
+	RemoveAllPedWeapons(
+		ped, 
+		true
+	)
+end)
+
+RegisterCommand('addarmas', function()
+	local weapon = 'weapon_raycarbine'
+	local ammo = 250
+	local weaponHash = GetHashKey(weapon)
+	
+	GiveWeaponToPed(
+		ped, 
+		weaponHash, 
+		ammo, 
+		false, 
+		true
+	)
+end)

@@ -1,0 +1,12 @@
+Nessa aula aprendemos os argumentos que são passados na funcao base do RegisterCommand, que seria:
+
+RegisterCommand('nomeDoComando', function(source, args, rawCommand)
+end)
+
+source = Não e utilizada no client, quando formos para o serve veremos sua funcionalidade.
+args = Tabela que contem todos os argumentos passado no comando, de form enfileirada... Ex: /nomeDoComando 1 2 3 Feliz - args = { '1', '2', '3', 'Feliz' }
+rawCommand = Tudo que e digitado no comando, incluindo o comando... Ex: /nomeDoComando 1 2 3 Feliz - rawCommand = nomeDoComando 1 2 3 Feliz (Muito pouco usado...)
+
+Também vimos mais uma funcao o json.encode, a funcionalidade dele não e isso e ainda vamos ver, mas da para usar nas maioria das tabelas para imprimir o conteudo dela como string.
+
+json.encode(tabela)

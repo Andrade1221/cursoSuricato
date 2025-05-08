@@ -1,0 +1,13 @@
+Nessa aula aprendemos a utilizar os args nos comandos com base nas informações fornecidas como argumentos.
+
+RegisterCommand('tpcds', function(source, args)
+	local ped = PlayerPedId()
+	local x, y, z = tonumber(args[1]), tonumber(args[2]), tonumber(args[3])
+	SetEntityCoords(ped, x, y, z)
+end)
+
+Mesmo que não usado, temos que por o source, pois para pegar o args, tem que ter a variavel dele primeiro...
+
+os args, sempre retorna em string, por isso o uso do tonumber para tranformar em numeros...
+
+outra coisa que vimos, quando usamos o PlayerPedId fora do escopo da funcao e o ped morre e muda o seu DNA, acaba que o comando não funciona mais até o script reinicar, então sempre bom chamr dnv sempre que for ter a funcao que usa ele.

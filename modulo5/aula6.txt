@@ -13,5 +13,5 @@ AddExplosion(
 	true, 
 	false, 
 	20
-);
+)
 print('Finalizando a explosão')

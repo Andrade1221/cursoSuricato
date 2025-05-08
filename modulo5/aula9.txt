@@ -4,4 +4,4 @@ Ness aula aprendemos a nativa SetEntityInvincible, ela nada mais faz que deixa a
 SetEntityInvincible(
 	ped, 
 	true
-);
+)

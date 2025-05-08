@@ -17,17 +17,17 @@ GiveWeaponToPed(
 	ammo, 
 	true, 
 	false
-);
+)
 
 -- // SET_ENTITY_ALPHA
 SetEntityAlpha(
 	ped, 
 	0, 
 	false
-);
+)
 
 --// SET_ENTITY_VISIBLE
 SetEntityVisible(
 	ped, 
 	true
-);
+)
