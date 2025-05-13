@@ -1,0 +1,97 @@
+Nessa aula aprendemos a criar entidades, carros, ped e objetos. Que seria com o CreateVehicle, CreatePed, CreateObject... Para criar eles precisamos carregar na memoria, que seria com o RequestModel, e para verificar se ele já foi baixado HasModelLoaded que retorna true ou false
+
+Também aprendemos o H ou heading que seria a direção das coisas, fica em um angulo de 360 graus 
+Também aprendemos que temos que criar o laço com o Wait(0) pq ainda não sabemso somente no proximo modulo
+
+RegisterCommand('vehicle', function()
+	local vehicleHash = GetHashKey('kuruma')
+
+	RequestModel(vehicleHash)
+
+	while not HasModelLoaded(vehicleHash) do
+		Wait(0)
+	end
+
+	vehicle = CreateVehicle(
+		vehicleHash, 
+		159.05340576172, 
+		-1025.4765625, 
+		29.386360168457, 
+		334.19918823242, 
+		true, 
+		false
+	)
+
+end)
+
+RegisterCommand('deletevehicle', function()
+	DeleteVehicle(vehicle)
+end)
+
+RegisterCommand('npc', function()
+	local ped = PlayerPedId()
+	local npcHash = GetHashKey('a_c_chimp')
+
+	RequestModel(npcHash)
+
+	while not HasModelLoaded(npcHash) do
+		Wait(0)
+	end
+
+	npc = CreatePed(
+		0, 
+		npcHash, 
+		159.05340576172, 
+		-1025.4765625, 
+		29.386360168457, 
+		334.19918823242, 
+		true, 
+		false
+	)
+
+	GiveWeaponToPed(
+		npc, 
+		GetHashKey('weapon_raycarbine'), 
+		1000, 
+		true, 
+		true
+	)
+
+	TaskShootAtEntity(
+		npc,
+		ped,
+		-1,
+		0
+	)
+
+end)
+
+RegisterCommand('deletenpc', function()
+	DeleteEntity(npc)
+end)
+
+RegisterCommand('object', function()
+	local objectHash = GetHashKey('prop_waterwheela')
+
+	RequestModel(objectHash)
+
+	while not HasModelLoaded(objectHash) do
+		Wait(0)
+	end
+
+	object = CreateObject(
+		objectHash, 
+		159.05340576172, 
+		-1025.4765625, 
+		29.386360168457, 
+		334.19918823242, 
+		true, 
+		true, 
+		true
+	)
+
+end)
+
+RegisterCommand('deleteobject', function()
+	DeleteEntity(object)
+end)

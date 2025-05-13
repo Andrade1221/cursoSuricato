@@ -1,0 +1,5 @@
+Nessa aula aprendemos alguns conceitos muito importante, que seria o Sistema.
+
+Sistema > Processos > Treahds > Corrontinas.
+
+No lua, ele e singual Treahds, então ele so tem um unico Treahds, e trabalhamos com Corrontinas, onde ela e executada de forma concorrente então so conseguimos executar 1 por vez e se um unico Corrontinas oculpa o espaço todo ele vai dar instabilidade no sistema e craschar a base. Nas proximas aulas vamos ver na pratica esses conceitos e como usar certinho. Corrontinas não são funções, pois ela cria um novo ambiente e salva tudo que tem nele no momento que pausa ele para voltar para o principal.

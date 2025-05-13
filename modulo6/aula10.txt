@@ -1,0 +1,37 @@
+Nessa aula aprendemos a como customizar e otimizar o codigo de criação de veículos.
+
+Também pegamos a anativa que tira o modelo da memoria de car, obj e ped seia o SetModelAsNoLongerNeeded. Também aprendemos o vector3 ou vec3 que seria uma tabela com as cds x y z de uma cordenada.
+
+RegisterCommand('vehicle', function()
+	local ped = PlayerPedId()
+	local vehicleHash = GetHashKey('kuruma')
+	local coords = GetEntityCoords(ped)
+	local heading = GetEntityHeading(ped)
+
+	RequestModel(vehicleHash)
+
+	while not HasModelLoaded(vehicleHash) do
+		Wait(0)
+	end
+
+	vehicle = CreateVehicle(
+		vehicleHash, 
+		coords, 
+		heading, 
+		true, 
+		false
+	)
+
+	SetModelAsNoLongerNeeded(vehicleHash)
+
+	SetPedIntoVehicle(ped, vehicle, -1)
+
+	SetVehicleCustomPrimaryColour(vehicle, 255, 255, 255)
+	SetVehicleCustomSecondaryColour(vehicle, 255, 0, 255)
+	SetVehicleNeonLightEnabled(vehicle, 0, true)
+	SetVehicleNeonLightEnabled(vehicle, 1, true)
+	SetVehicleNeonLightEnabled(vehicle, 2, true)
+	SetVehicleNeonLightEnabled(vehicle, 3, true)
+	SetVehicleNeonLightsColour(vehicle, 255, 255, 255)
+
+end)

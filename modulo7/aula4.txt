@@ -1,0 +1,30 @@
+Nessa aula aprendemos a usar uma das nativas mais que mais vamos usar o DrawMarker(). E aprendemos um conceito muito bom, como o DrawMarker e algo que tem que estar 100% das vezes na tela da pessoa, nos poderiamos por um nome no wait, mas como a taxa maxima seria o fps dele, colocando 0 que e o correto não importa se e 40 50 20000 ele vai aparecer na tela dele.
+
+CreateThread(function()
+	while true do
+		DrawMarker(
+			22 --[[ integer ]], 
+			159.05340576172 --[[ number ]], 
+			-1025.4765625 --[[ number ]], 
+			29.386360168457 --[[ number ]], 
+			0 --[[ number ]], 
+			0 --[[ number ]], 
+			0 --[[ number ]], 
+			0 --[[ number ]], 
+			0 --[[ number ]], 
+			0 --[[ number ]], 
+			3.0 --[[ number ]], 
+			3.0 --[[ number ]], 
+			3.0 --[[ number ]], 
+			255 --[[ integer ]], 
+			0 --[[ integer ]], 
+			0 --[[ integer ]], 
+			255 --[[ integer ]], 
+			true --[[ boolean ]], 
+			false --[[ boolean ]], 
+			false --[[ integer ]], 
+			true --[[ boolean ]]
+		)
+		Wait(0)
+	end
+end)

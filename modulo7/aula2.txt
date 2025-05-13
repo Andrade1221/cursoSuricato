@@ -1,0 +1,17 @@
+Nessa aula aprendemos a como usar de fato as Corrontinas, em codigo, que seria com os:
+
+coroutine.create() - Para criar a mesma.
+coroutine.yield() - Para pausar a mesma.
+coroutine.resume()  Para chamar a mesma.
+
+estrutura delas:
+
+local NOME = coroutine.create(function()
+
+end)
+
+coroutine.yield()
+
+coroutine.resume(NOME)
+
+lembrando, ela sempre vai voltar ao ponto que foi chamada/pausada, essa e a grande diferença de uma function pra uma coroutine.

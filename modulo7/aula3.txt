@@ -1,0 +1,9 @@
+Nessa aula aprendemos a aplicar a coroutine no Fivem. Que seria atravez do Citizen.CreateThread(). Ou somente CreateThread()... Ele seria o coroutine.create() temos uma biblioteca que organiza e executa eles sem ter que chamar, e o Citizen.Wait() ou somente Wait() serve para dar uma pausa em mile segundos passado em argumentos. Se criarmos um coroutine infinito sem pausa, vamos derrumar a base, pois o lua e single Thread e não tera espaço para executar as demais tarefas. Quanto menos tempo no wiat mais "pesado" presjudicial a base e o codigo.
+
+
+Citizen.CreateThread(function()
+	while true do
+		print('Numero Aleatorio: ' .. math.random())
+		Citizen.Wait(0)
+	end
+end)
