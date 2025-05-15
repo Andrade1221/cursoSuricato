@@ -36,7 +36,7 @@ hasPermission('Lucca', 'delete_user') --> false
 ]]
 
 local users = {
-    { name = 'Gabriel', age = 19, password = 'passwordtest', role = 'view_logs' },
+    { name = 'Gabriel', age = 19, password = 'passwordtest', role = 'admin' },
     { name = 'Lucca', age = 22, password = 'passwordtest', role = 'user' },
     { name = 'Mario', age = 35, password = 'passwordtest', role = 'user' },
     { name = 'Amanda', age = 7, password = 'passwordtest', role = 'user' },
@@ -52,18 +52,14 @@ local roles = {
 function hasPermission(name, permission)
     for i, user in ipairs(users) do
         if user.name == name then
-            for k, perm in pairs(AQUI TEM QUE SER O ROLE) do
-                print(perm)
-                print(k)
-                print(permission)
+            for k, perm in pairs(roles[user.role]) do
                 if perm == permission then
                     print('true')
                     return true
-                else
-                    print('false')
-                    return false
                 end
             end
+            print('false')
+            return false
         end
     end
     print('Usuario nao encontrado.')
