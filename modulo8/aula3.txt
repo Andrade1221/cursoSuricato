@@ -1,0 +1,5 @@
+Nessa aula vimos alguma nativas que so pode ser utilizadas por frame ou Wait(0) que seria as que tem ThisFrame no nome, nem todas que são por frame tem isso, como DrawMarker, IsControlJustPressed e tals e nem sepre e somente daquela forma que conseguimos executar a mesma funcção.
+
+exemplo:
+
+HideHudComponentThisFrame(2) -- Tira as armas/munição la em cima 

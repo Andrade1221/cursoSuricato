@@ -1,0 +1,48 @@
+Nessa aula aprendemos alguns nativos de controle de precionamento por frame,
+
+Seria 4:
+
+IsControlJustPressed - Se acabou de ser precionado
+IsControlJustReleased - Se acabou de ser solto
+
+IsControlPressed - Se está sendo precionado
+IsControlReleased - Se não está sendo precionado
+
+Eles seguem a mesmo ordem (0, numero da tecla) - ambos, retorna true ou false
+Também vamos ver mais para rente uma maneira melhor que seria inves de verificar por frame, quando precionar ele avisa... Também conhecemos a IsControlEnabled por cima, que seria se o comando está ou não hanilitado a tecla no caso... 
+
+CreateThread(function()
+	while true do
+		if IsControlJustPressed(0, 38) then
+			print('Ok 1')
+		end
+		Wait(0)
+	end
+end)
+
+CreateThread(function()
+	while true do
+		if IsControlJustReleased(0, 38) then
+			print('Ok 2')
+		end
+		Wait(0)
+	end
+end)
+
+CreateThread(function()
+	while true do
+		if IsControlPressed(0, 38) then
+			print('Ok 3')
+		end
+		Wait(0)
+	end
+end)
+
+CreateThread(function()
+	while true do
+		if IsControlReleased(0, 38) then
+			print('Ok 4')
+		end
+		Wait(0)
+	end
+end)

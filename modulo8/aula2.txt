@@ -1,0 +1,44 @@
+Nessa aula aprendemos o RegisterKeyMapping que seria uma maneira mais performatica de fazer a verificação da tecla precionada... Onde ela "avisa" nos quando e precionada...
+
+Bom dela e que não fica lodando de pergunta, podemos criar mais de uma para mesma tecla, tem como o jogador alterar para tecla de preferencia em config e tem como fazer o quando precionar e soltar usando o + e - segue modelo:
+
+RegisterKeyMapping(
+	comando,  -- Se por um + antes conseguimos fazer 2 comando um que pega o click e outro o soltar 
+	descrição aprece no config, 
+	qual o lugar, no caso keyboard, 
+	tecla
+)
+
+ai temos que criar um comando com essa nom que registramo com oque ira fazer...
+
+RegisterCommand('comando', function()
+    -- Oque faz
+end)
+
+
+RegisterCommand('keyteste1', function()
+	print('Tecla E precionada 1')
+end)
+
+
+RegisterKeyMapping(
+	'keyteste1', 
+	'Preciona a tecla E', 
+	'keyboard', 
+	'E'
+)
+
+RegisterCommand('+keyteste2', function()
+	print('Tecla E precionada 2')
+end)
+
+RegisterCommand('-keyteste2', function()
+	print('Tecla E solta 2')
+end)
+
+RegisterKeyMapping(
+	'+keyteste2', 
+	'Preciona a tecla E', 
+	'keyboard', 
+	'E'
+)

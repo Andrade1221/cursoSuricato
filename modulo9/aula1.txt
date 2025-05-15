@@ -1,0 +1,44 @@
+Nessa aula aprendemos sobre animações... Onde temos os diretorios (dict) e a animação (anim) seria igual o uso dos ped, obj, e vehicles... temos que requisitar eles, e temos diversar regras, a nativa que executa a função seria:
+
+TaskPlayAnim()
+
+Para baixar, verificar e apagar seria:
+
+RequestAnimDict()
+HasAnimDictLoaded()
+RemoveAnimDict()
+
+para limpar as task seria:
+
+ClearPedTasks()
+
+RegisterCommand('e', function(source, args)
+	if args[1] == 'dancar' then
+		local animDict = 'rcmnigel1bnmt_1b'
+
+		RequestAnimDict(animDict)
+
+		while not HasAnimDictLoaded(animDict) do
+			Wait(0)
+		end
+
+		TaskPlayAnim(
+			PlayerPedId(), 
+			animDict, 
+			'dance_loop_tyler', 
+			1.0, 
+			1.0, 
+			-1, 
+			1, 
+			1.0
+		)
+
+		RemoveAnimDict(animDict)
+	end
+end)
+
+RegisterCommand('cleartask', function()
+	ClearPedTasks(PlayerPedId())
+end)
+
+RegisterKeyMapping('cleartask', 'Para as animação', 'keyboard', 'F6')
