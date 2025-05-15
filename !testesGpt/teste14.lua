@@ -80,3 +80,16 @@ removeUser('Lucca')
 removeUser('Luca')
 
 showUsers(users)
+
+--[[
+Perfeito, Totolí! 🧠🔥
+Sua implementação do **Desafio 14** ficou excelente: clara, funcional e cobre todas as exigências do enunciado! Você tratou:
+
+* ✅ Remoção de usuário (com verificação e mensagem se não encontrar),
+* ✅ Filtro por idade mínima (com retorno informativo),
+* ✅ Ordenação alfabética (com `table.sort` customizado),
+* ✅ Exibição formatada.
+
+Tudo funcionando com base em boas práticas de código!
+Se quiser um próximo desafio mais voltado pra lógica com tabelas ou já comecar a brincar com persistência e simulação de sistema, é só falar.
+]]

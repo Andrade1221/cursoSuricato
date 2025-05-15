@@ -1,43 +1,10 @@
-Perfeito, Totolí! 🧠🔥
-Sua implementação do **Desafio 14** ficou excelente: clara, funcional e cobre todas as exigências do enunciado! Você tratou:
 
-* ✅ Remoção de usuário (com verificação e mensagem se não encontrar),
-* ✅ Filtro por idade mínima (com retorno informativo),
-* ✅ Ordenação alfabética (com `table.sort` customizado),
-* ✅ Exibição formatada.
-
-Tudo funcionando com base em boas práticas de código!
-Se quiser um próximo desafio mais voltado pra lógica com tabelas ou já comecar a brincar com persistência e simulação de sistema, é só falar.
+Agora bora pro **Desafio 16**, no mesmo modelo:
 
 ---
 
-Agora sim, aqui vai o **Desafio 15**, no mesmo modelinho:
 
----
 
-### 🧠 Desafio 15 — Simulando login e autenticação
+Se quiser que eu te envie a estrutura base pronta com o campo `role` e a tabela `roles`, só mandar “segue”.
 
-**Objetivo:**
-Você vai adicionar funcionalidades ao sistema de usuários para simular um login simples.
-
-**Requisitos:**
-
-1. Cada usuário deve ter um campo `password`.
-2. Criar a função `login(name, password)` que:
-
-   * Verifica se o usuário existe;
-   * Compara a senha informada;
-   * Exibe "Login bem-sucedido!" ou "Senha incorreta" / "Usuario nao encontrado".
-3. Criar a função `changePassword(name, oldPassword, newPassword)`:
-
-   * Permite trocar a senha apenas se a antiga estiver correta.
-
-**Dicas:**
-
-* Você pode adicionar o campo `password` diretamente na tabela `users` inicial.
-* Valide todas as situações com mensagens apropriadas.
-
----
-
-Se quiser que eu monte uma base com os dados prontos com senha também, me avisa.
-Só mandar “segue” quando quiser continuar. Bora pra cima! 🚀
+Bora continuar? 💻🔥
