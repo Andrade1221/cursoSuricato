@@ -1,0 +1,83 @@
+Nessa aula aprendemos algumas coisas, como como criar uma notify com nativas do jogo, oque seria o comprimento, ou distandica entre dois vetores (vec), como calcular isso, colocamos a animação em uma função, e criamos um sistema de "farm" com verificação de distandcia tempo e notify
+
+
+
+
+
+
+
+
+
+
+function notify(message)
+	BeginTextCommandThefeedPost("STRING")
+	AddTextComponentSubstringPlayerName(message)
+	EndTextCommandThefeedPostTicker(true, true)
+end
+
+function playFarmAnim()
+	local animDict = 'amb@prop_human_parking_meter@female@idle_a'
+
+	RequestAnimDict(animDict)
+
+	while not HasAnimDictLoaded(animDict) do
+		Wait(0)
+	end
+
+	TaskPlayAnim(
+		PlayerPedId(), 
+		animDict, 
+		'idle_a_female', 
+		1.0, 
+		1.0, 
+		-1, 
+		1, 
+		1.0
+	)
+
+	RemoveAnimDict(animDict)
+end
+
+local farmCoords = vec3(173.57809448242, -1005.1848754883, 28.53646774292)
+
+CreateThread(function()
+	while true do
+		DrawMarker(
+			22 --[[ integer ]], 
+			farmCoords,
+			0 --[[ number ]], 
+			0 --[[ number ]], 
+			0 --[[ number ]], 
+			0 --[[ number ]], 
+			0 --[[ number ]], 
+			0 --[[ number ]], 
+			0.3 --[[ number ]], 
+			0.3 --[[ number ]], 
+			0.3 --[[ number ]], 
+			255 --[[ integer ]], 
+			0 --[[ integer ]], 
+			0 --[[ integer ]], 
+			255 --[[ integer ]], 
+			false --[[ boolean ]], 
+			true --[[ boolean ]], 
+			false --[[ integer ]], 
+			false --[[ boolean ]]
+		)
+		Wait(0)
+	end
+end)
+
+RegisterCommand('tryfarm', function()
+	local pedCoords = GetEntityCoords(PlayerPedId())
+	local distance = #(farmCoords - pedCoords)
+
+	if distance < 1.5 then
+		notify('~y~Aguarde 5 segundos!')
+		playFarmAnim()
+		Wait(5000)
+		ClearPedTasks(PlayerPedId())
+		notify('~g~Você recebeu R$ 5.000,00.')
+	end
+end)
+
+RegisterKeyMapping('tryfarm', 'Tentativa de farme', 'keyboard', 'E')

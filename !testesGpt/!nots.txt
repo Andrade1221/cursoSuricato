@@ -1,10 +1,41 @@
+🚀 **Desafio 17 — Sistema de Relatórios de Atividades**
 
-Agora bora pro **Desafio 16**, no mesmo modelo:
+Você foi encarregado de criar um sistema simples de relatórios de atividades dos usuários. Cada vez que um usuário realiza uma ação, ela é registrada com:
+
+* Nome do usuário
+* Ação realizada
+* Horário (simulado como uma string, tipo `"14:30"`)
 
 ---
 
+### ✅ **O que você deve fazer:**
 
+1. Criar uma tabela chamada `logs` para armazenar os registros
 
-Se quiser que eu te envie a estrutura base pronta com o campo `role` e a tabela `roles`, só mandar “segue”.
+2. Criar uma função `logAction(name, action, time)` que:
 
-Bora continuar? 💻🔥
+   * Adiciona a ação à tabela `logs`
+   * Verifica se o usuário existe
+   * Verifica se o usuário tem permissão para executar aquela ação (usando a função `hasPermission`)
+   * Se tiver, registra no log e imprime:
+     `"Ação registrada: [nome] executou '[ação]' às [hora]"`
+   * Se não tiver, imprime:
+     `"Permissão negada: [nome] tentou executar '[ação]' às [hora]"`
+
+3. Criar uma função `showLogs()` que imprime todos os logs, no formato:
+   `"Log [n]: [nome] executou '[ação]' às [hora]"`
+
+---
+
+### 📌 Exemplo de uso:
+
+```lua
+logAction('Gabriel', 'delete_user', '10:00')
+logAction('Lucca', 'edit_user', '10:05')
+logAction('Amanda', 'view_logs', '10:10')
+showLogs()
+```
+
+---
+
+Se quiser, posso revisar quando terminar. Boa sorte, Totolí! 🧠💻

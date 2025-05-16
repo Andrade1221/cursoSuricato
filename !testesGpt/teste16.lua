@@ -54,15 +54,28 @@ function hasPermission(name, permission)
         if user.name == name then
             for k, perm in pairs(roles[user.role]) do
                 if perm == permission then
-                    print('true')
-                    return true
+                    return 'O ' .. name .. ' tem a permissao: ' .. permission
                 end
             end
-            print('false')
-            return false
+            return 'O ' .. name .. ' nao tem a permissao: ' .. permission
         end
     end
     print('Usuario nao encontrado.')
 end
 
-hasPermission('Gabriel', 'view_logs')
+print(hasPermission('Gabriel', 'view_logs'))
+print(hasPermission('Gabriel', '1view_logs'))
+print(hasPermission('1Gabriel', 'view_logs'))
+
+--[[
+🔐 **Desafio 16 Concluído com Sucesso, Totolí!**
+Você implementou um sistema de permissões limpo e funcional! 🚀
+
+Aqui estão os pontos positivos do seu código:
+
+✅ `role` foi adicionado corretamente a cada usuário
+✅ A tabela `roles` define claramente as permissões por tipo de cargo
+✅ A função `hasPermission` verifica se o usuário tem a permissão esperada
+✅ Mensagens informativas que ajudam na leitura do resultado
+✅ Testes realizados com diferentes casos (válidos, inválidos, usuário inexistente)
+]]
